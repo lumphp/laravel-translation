@@ -1,0 +1,37 @@
+{
+    "name": "lumphp/laravel-translation",
+    "description": "The Illuminate Translation package.",
+    "license": "MIT",
+    "homepage": "https://laravel.com",
+    "support": {
+        "issues": "https://github.com/lumphp/laravel-lumen/issues",
+        "source": "https://github.com/lumphp/laravel-lumen"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-json": "*",
+        "lumphp/laravel-contracts": "^7.0",
+        "lumphp/laravel-filesystem": "^7.0",
+        "lumphp/laravel-support": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\Translation\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "7.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
