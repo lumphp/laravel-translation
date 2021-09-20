@@ -14,20 +14,22 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.3|^8.0",
         "ext-json": "*",
-        "lumphp/laravel-contracts": "^7.0",
-        "lumphp/laravel-filesystem": "^7.0",
-        "lumphp/laravel-support": "^7.0"
+        "lumphp/laravel-collections": "^8.0",
+        "lumphp/laravel-contracts": "^8.0",
+        "lumphp/laravel-macroable": "^8.0",
+        "lumphp/laravel-filesystem": "^8.0",
+        "lumphp/laravel-support": "^8.0"
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Translation\\": "src/"
+            "Illuminate\\Translation\\": ""
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "7.x-dev"
+            "dev-master": "8.x-dev"
         }
     },
     "config": {
